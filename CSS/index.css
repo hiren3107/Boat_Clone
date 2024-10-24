@@ -28,3 +28,7 @@
 .text{
     border-bottom: 1px dotted rgb(56, 56, 56) ;
 }
+video{
+    border-radius: 20px;
+    width: 100%;
+}
