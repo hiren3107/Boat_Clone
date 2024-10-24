@@ -4,3 +4,27 @@
     box-sizing: border-box;
     font-family: "Metrophobic", sans-serif;
 }
+#search{
+    padding-left: 60px;
+}
+.c2{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/assets/imgg.png);
+}
+#pr1{
+    border-radius: 15px 15px 15px 15px;
+}
+#text1{
+    border-radius: 15px 0px 0px 0px;
+}
+.c31{
+    border-radius: 15px 15px 0px 0px;
+}
+#span1{
+    border-radius: 0px 0px 15px 15px;
+}
+.text{
+    border-bottom: 1px dotted rgb(56, 56, 56) ;
+}

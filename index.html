@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <link rel="stylesheet" href="CSS/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,15 +12,245 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.4.0/remixicon.css"
+        integrity="sha512-hH7VMMVfPgfkpYx2GazOEG6RrYM+y8cS7FzccwBTWQeyhPv01XYk0MVcuhh4EAimOELWvqKjhNwes/UsYoyN6w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
 </head>
-    <h1>hiren</h1>
-<body>
 
-    <h1>hello dc</h1>
+<body>
+    <header class="h-[90px] w-[100%] flex justify-center">
+        <div class="sub h-[100%] lg:w-[80%] w-[98%] flex justify-between">
+            <div class="logo flex justify-center items-center lg:w-[10%] h-[100%]">
+                <i class="fa-solid fa-bars lg:hidden pe-[20px]"></i>
+              <a href="index.html"><img src="/assets/boAt_logo.svg" class="lg:h-[35px] h-[30px]" alt=""></a>
+            </div>
+            <nav class="hidden xl:block w-[55%] h-[100%] flex justify-between items-center">
+                <ul class="w-[100%] h-[100%] flex justify-between items-center">
+                    <li class="w-[60%] flex justify-between items-center">
+                        <a href="" class="text-[18px]">home</a>
+                        <a href="" class="text-[18px]">product</a>
+                        <a href="" class="text-[18px]">careers</a>
+                        <a href="" class="text-[18px]">refer & earn</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="logo1 h-[100%] lg:w-[24%] md:w-[45%] w-[25%] flex justify-around items-center relative">
+                <i class="ri-search-line absolute lg:left-[35px] md:left-[35px] left-[-35px] "></i>
+                <input type="text" placeholder="Search" id="search"
+                    class="bg-[#eff4f7] h-[45px] w-[70%] rounded-full hidden md:block">
+                <i class="fa-regular fa-user text-[20px]"></i>
+                <i class="ri-shopping-cart-2-line text-[20px]"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- SECTION - 2 -->
+
+    <div class="b md:h-[120px] h-[32vw] sm:h-[20vw] w-[100%] bg-[#f6faff] flex justify-center">
+        <div class="b1 h-[100%] w-[95%] lg:w-[80%] flex justify-between">
+            <div class="bb w-[8.4%] h-[100%] flex justify-between items-center flex-wrap md:normal">
+                <div class="bbimg">
+                    <img src="/assets/Warranty.svg" class="md:h-[3.2vw] h-[10vw]" alt="">
+                </div>
+                <div class="bbtext">
+                    <p class="font-[600]">1 year</p>
+                    <p class="text-[12px]">Warranty</p>
+                </div>
+            </div>
+            <div class="bb w-[9.7%] h-[100%] flex justify-between items-center flex-wrap md:normal">
+                <div class="bbimg">
+                    <img src="/assets/replaseble.svg" class="md:h-[3.2vw] h-[10vw]" alt="">
+                </div>
+                <div class="bbtext">
+                    <p class="font-[600]">7 day</p>
+                    <p class="text-[12px]">Replacement</p>
+                </div>
+            </div>
+            <div class="bb w-[11.6%] h-[100%] flex justify-between items-center flex-wrap md:normal">
+                <div class="bbimg">
+                    <img src="/assets/Delivery.svg" class="md:h-[3.2vw] h-[10vw]" alt="">
+                </div>
+                <div class="bbtext">
+                    <p class="font-[600]">Free Express</p>
+                    <p class="text-[12px]">Delivery*</p>
+                </div>
+            </div>
+            <div class="bb w-[7.3%] h-[100%] flex justify-between items-center flex-wrap md:normal">
+                <div class="bbimg">
+                    <img src="/assets/gst.svg" class="md:h-[3.2vw] h-[10vw]" alt="">
+                </div>
+                <div class="bbtext">
+                    <p class="font-[600]">GST</p>
+                    <p class="text-[12px]">Billing</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECTION - 3 -->
+
+    <div class="w-[100%] flex justify-center flex-wrap">
+        <div class="c1 lg:pt-[1vw] pt-[3vw] w-[95%]  lg:w-[80%] flex justify-between">
+            <div class="cc flex justify-center items-center">
+                <span class="lg:text-[1.2vw]">Grand</span>
+                <span class="lg:text-[1.6vw] font-[600] ps-2">Festive Sale</span>
+            </div>
+            <div class="cc flex justify-center items-center">
+                <span class="text-[#2f7fc2] lg:text-[16px] text-[14px] font-[600]">View All</span>
+                <i class="ri-arrow-right-circle-line text-[#2f7fc2] font-[600] ps-1"></i>
+            </div>
+        </div>
+        <div class="c2 lg:pt-[0.2vw] pt-[3vw] w-[95%] h-[30vw] xl:h-[9vw] mt-[2vw] lg:mt-[1vw] rounded-[3vw] lg:rounded-[1vw]  lg:w-[80%] border"></div>
+        <div class="c3 lg:w-[80%] w-[95%] mt-10 sm:justify-between rounded-[20px] flex flex-wrap justify-center xl:normal lg:justify-between">
+            <div class="c31 border bg-[#fafafa] sm:w-[30%] xl:w-[12.5vw] w-[90%]">
+                <div class="img xl:h-[13vw] sm:h-[32vw] h-[80vw] xl:w-[12.5vw] relative">
+                    <p id="text1" class="absolute text-[12px] text-[white] p-[0.1vw] bg-[black]">✍️ Engraving Avalable</p>
+                    <img src="/assets/1.jpg" id="pr1" class="h-[100%] w-[100%] -z-50" alt="">
+                    <span id="span1" class="bg-[#fcc50b] absolute bottom-[0px] w-[100%] text-[12px] p-2 font-[600]">60 Hours Playback</span>
+                    <span class="bg-[white] absolute sm:w-[25%] lg:w-[17%] w-[17%] flex items-center justify-between sm:p-2 p-[10px] xl:p-[1px] h-[1vw] bottom-[7px] right-[15px]"><i class="fa-solid fa-star text-[12px] text-[#fcc50b]"></i><p>4.9</p></span>
+                </div>
+                <div class="text p-3 w-[97%] ms-1">
+                    <p class="font-[600] text-[15px]">boAt Airdopes 131</p>
+                </div>
+                <div class="text1 p-3 w-[97%] ms-1 flex justify-between">
+                    <div class="text11">
+                        <p class="font-[600] text-[15px]">₹799</p>
+                    </div>
+                    <div class="text12 flex items-center">
+                        <div class="round h-[30px] w-[30px] xl:h-[1vw] xl:w-[1vw] bg-[black] rounded-full "></div>
+                        <div class="round h-[30px] w-[30px] xl:h-[1vw] xl:w-[1vw] ms-[-8px] bg-[#586575] rounded-full "></div>
+                        <p>+5</p>
+                    </div>          
+                </div>
+            </div>
+
+            <div class="c31 mt-[2vw] sm:mt-[0vw] border bg-[#fafafa] sm:w-[30%] xl:w-[12.5vw] w-[90%]">
+                <div class="img xl:h-[13vw] sm:h-[32vw] h-[80vw] xl:w-[12.5vw] relative">
+                    <p id="text1" class="absolute text-[12px] text-[white] p-[0.1vw] bg-[black]">✍️ Engraving Avalable</p>
+                    <img src="/assets/2.png" id="pr1" class="h-[100%] w-[100%] -z-50" alt="">
+                    <span id="span1" class="bg-[#fcc50b] absolute bottom-[0px] w-[100%] text-[12px] p-2 font-[600]">42 Hours Playback</span>
+                    <span class="bg-[white] absolute sm:w-[25%] lg:w-[17%] w-[17%] flex items-center justify-between sm:p-2 p-[10px] xl:p-[1px] h-[1vw] bottom-[7px] right-[15px]"><i class="fa-solid fa-star text-[12px] text-[#fcc50b]"></i><p>4.8</p></span>
+                </div>
+                <div class="text p-3 w-[97%] ms-1">
+                    <p class="font-[600] text-[15px]">boAt Airdopes 141</p>
+                </div>
+                <div class="text1 p-3 w-[97%] ms-1 flex justify-between">
+                    <div class="text11">
+                        <p class="font-[600] text-[15px]">₹899</p>
+                    </div>
+                    <div class="text12 flex items-center">
+                        <div class="round h-[30px] w-[30px] xl:h-[1vw] xl:w-[1vw] bg-[black] rounded-full "></div>
+                        <div class="round h-[30px] w-[30px] xl:h-[1vw] xl:w-[1vw] ms-[-8px] bg-[#9c9c9c] rounded-full "></div>
+                        <p>+3</p>
+                    </div>          
+                </div>
+            </div>
+
+            <div class="c31 mt-[2vw] sm:mt-[0vw] xl:mt-[0vw] border bg-[#fafafa] sm:w-[30%] xl:w-[12.5vw] w-[90%]">
+                <div class="img xl:h-[13vw] sm:h-[32vw] h-[80vw] xl:w-[12.5vw] relative">
+                    <p id="text1" class="absolute text-[12px] text-[white] p-[0.1vw] bg-[black]">✍️ Engraving Avalable</p>
+                    <img src="/assets/3.jpg" id="pr1" class="h-[100%] w-[100%] -z-50" alt="">
+                    <span id="span1" class="bg-[#fcc50b] absolute bottom-[0px] w-[100%] text-[12px] p-2 font-[600]">40 Hours Playback</span>
+                    <span class="bg-[white] absolute sm:w-[25%] lg:w-[17%] w-[17%] flex items-center justify-between sm:p-2 p-[10px] xl:p-[1px] h-[1vw] bottom-[7px] right-[15px]"><i class="fa-solid fa-star text-[12px] text-[#fcc50b]"></i><p>4.9</p></span>
+                </div>
+                <div class="text p-3 w-[97%] ms-1">
+                    <p class="font-[600] text-[15px]">boAt Airdopes 161</p>
+                </div>
+                <div class="text1 p-3 w-[97%] ms-1 flex justify-between">
+                    <div class="text11">
+                        <p class="font-[600] text-[15px]">₹899</p>
+                    </div>
+                    <div class="text12 flex items-center">
+                        <div class="round h-[30px] w-[30px] xl:h-[1vw] xl:w-[1vw] bg-[black] rounded-full "></div>
+                        <div class="round h-[30px] w-[30px] xl:h-[1vw] xl:w-[1vw] ms-[-8px] bg-[#003686] rounded-full "></div>
+                        <p>+5</p>
+                    </div>          
+                </div>
+            </div>  
+
+            <div class="c31 mt-[2vw] sm:mt-[2vw] xl:mt-[0vw] border bg-[#fafafa] sm:w-[30%] xl:w-[12.5vw] w-[90%]">
+                <div class="img xl:h-[13vw] sm:h-[32vw] h-[80vw] xl:w-[12.5vw] relative">
+                    <p id="text1" class="absolute text-[12px] text-[white] p-[0.1vw] bg-[black]">✍️ Engraving Avalable</p>
+                    <img src="/assets/4.jpg" id="pr1" class="h-[100%] w-[100%] -z-50" alt="">
+                    <span id="span1" class="bg-[#fcc50b] absolute bottom-[0px] w-[100%] text-[12px] p-2 font-[600]">60 Hours Playback</span>
+                    <span class="bg-[white] absolute sm:w-[25%] lg:w-[17%] w-[17%] flex items-center justify-between sm:p-2 p-[10px] xl:p-[1px] h-[1vw] bottom-[7px] right-[15px]"><i class="fa-solid fa-star text-[12px] text-[#fcc50b]"></i><p>4.9</p></span>
+                </div>
+                <div class="text p-3 w-[97%] ms-1">
+                    <p class="font-[600] text-[15px]">boAt Rockerz 255 Pro+</p>
+                </div>
+                <div class="text1 p-3 w-[97%] ms-1 flex justify-between">
+                    <div class="text11">
+                        <p class="font-[600] text-[15px]">₹999</p>
+                    </div>
+                    <div class="text12 flex items-center">
+                        <div class="round h-[30px] w-[30px] xl:h-[1vw] xl:w-[1vw] bg-[black] rounded-full "></div>
+                        <div class="round h-[30px] w-[30px] xl:h-[1vw] xl:w-[1vw] ms-[-8px] bg-[#1a9494] rounded-full "></div>
+                        <p>+3</p>
+                    </div>          
+                </div>
+            </div> 
+
+            <div class="c31 mt-[2vw] sm:mt-[2vw] xl:mt-[0vw] border bg-[#fafafa] sm:w-[30%] xl:w-[12.5vw] w-[90%]">
+                <div class="img xl:h-[13vw] sm:h-[32vw] h-[80vw] xl:w-[12.5vw] relative">
+                    <p id="text1" class="absolute text-[12px] text-[white] p-[0.1vw] bg-[black]">✍️ Engraving Avalable</p>
+                    <img src="/assets/5.jpg" id="pr1" class="h-[100%] w-[100%] -z-50" alt="">
+                    <span id="span1" class="bg-[#fcc50b] absolute bottom-[0px] w-[100%] text-[12px] p-2 font-[600]">50 Hours Playback</span>
+                    <span class="bg-[white] absolute sm:w-[25%] lg:w-[17%] w-[17%] flex items-center justify-between sm:p-2 p-[10px] xl:p-[1px] h-[1vw] bottom-[7px] right-[15px]"><i class="fa-solid fa-star text-[12px] text-[#fcc50b]"></i><p>4.9</p></span>
+                </div>
+                <div class="text p-3 w-[97%] ms-1">
+                    <p class="font-[600] text-[15px]">boAt Airdopes Atom 83</p>
+                </div>
+                <div class="text1 p-3 w-[97%] ms-1 flex justify-between">
+                    <div class="text11">
+                        <p class="font-[600] text-[15px]">₹1,199</p>
+                    </div>
+                    <div class="text12 flex items-center">
+                        <div class="round h-[30px] w-[30px] xl:h-[1vw] xl:w-[1vw] bg-[#0a3fa8] rounded-full "></div>
+                        <div class="round h-[30px] w-[30px] xl:h-[1vw] xl:w-[1vw] ms-[-8px] bg-[black] rounded-full "></div>
+                        <p>+2</p>
+                    </div>          
+                </div>
+            </div> 
+
+            <div class="c31 mt-[2vw] sm:mt-[2vw] xl:mt-[0vw] border bg-[#fafafa] sm:w-[30%] xl:w-[12.5vw] w-[90%]">
+                <div class="img xl:h-[13vw] sm:h-[32vw] h-[80vw] xl:w-[12.5vw] relative">
+                    <p id="text1" class="absolute text-[12px] text-[white] p-[0.1vw] bg-[black]">✍️ Engraving Avalable</p>
+                    <img src="/assets/6.jpg" id="pr1" class="h-[100%] w-[100%] -z-50" alt="">
+                    <span id="span1" class="bg-[#fcc50b] absolute bottom-[0px] w-[100%] text-[12px] p-2 font-[600]">35 Hours Playback</span>
+                    <span class="bg-[white] absolute sm:w-[25%] lg:w-[17%] w-[17%] flex items-center justify-between sm:p-2 p-[10px] xl:p-[1px] h-[1vw] bottom-[7px] right-[15px]"><i class="fa-solid fa-star text-[12px] text-[#fcc50b]"></i><p>4.9</p></span>
+                </div>
+                <div class="text p-3 w-[97%] ms-1">
+                    <p class="font-[600] text-[15px]">boAt Airdopes Alpha</p>
+                </div>
+                <div class="text1 p-3 w-[97%] ms-1 flex justify-between">
+                    <div class="text11">
+                        <p class="font-[600] text-[15px]">₹849</p>
+                    </div>
+                    <div class="text12 flex items-center">
+                        <div class="round h-[30px] w-[30px] xl:h-[1vw] xl:w-[1vw] bg-[black] rounded-full "></div>
+                        <div class="round h-[30px] w-[30px] xl:h-[1vw] xl:w-[1vw] ms-[-8px] bg-[white] border rounded-full "></div>
+                        <p>+1</p>
+                    </div>          
+                </div>
+            </div>   
+        </div>
+
+
+        <div class="c1 lg:pt-[1vw] pt-[3vw] w-[95%]  lg:w-[80%] flex justify-between">
+            <div class="cc flex justify-center items-center">
+                <span class="lg:text-[1.2vw]">Shop by</span>
+                <span class="lg:text-[1.6vw] font-[600] ps-2">Categories</span>
+            </div>
+            <div class="cc flex justify-center items-center">
+                <span class="text-[#2f7fc2] lg:text-[16px] text-[14px] font-[600]">View All</span>
+                <i class="ri-arrow-right-circle-line text-[#2f7fc2] font-[600] ps-1"></i>
+            </div>
+        </div>
+    </div>
 </body>
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="JS/index.js"></script>
