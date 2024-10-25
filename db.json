@@ -1,5 +1,5 @@
 {
-    "title" : [
+    "product" : [
         {
             "id":"1",
             "Categories" : "Wireless-Earbuds",
@@ -325,9 +325,9 @@
         {
             "id": "24",
             "Categories": "Limited-Edition",
-            "title": "Airdopes 138 DC Edition",
+            "title": "Airdopes 138 Black Panther Edition",
             "playback": "50",
-            "img": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/AD_161_Hulk.jpg",
+            "img": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/AD131_Black-panther.jpg",
             "price": "1,299",
             "rating": "4.8",
             "ratingimg": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/star-5.png",
