@@ -4,12 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Product</title>
     <link rel="stylesheet" href="CSS/productpage.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Metrophobic&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.4.0/remixicon.css"
+        integrity="sha512-hH7VMMVfPgfkpYx2GazOEG6RrYM+y8cS7FzccwBTWQeyhPv01XYk0MVcuhh4EAimOELWvqKjhNwes/UsYoyN6w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
@@ -17,8 +22,36 @@
 </head>
 
 <body>
-    <div id="main" class="w-[100%] h-[auto] border flex justify-center flex-wrap pt-[50px] pb-[50px]">
-        <div class="w-[95%] sm:w-[80%] md:w-[90%] xl:w-[90%] 2xl:w-[80%] border mb-[25px] flex justify-between">
+    <header class="h-[90px] w-[100%] flex justify-center">
+        <div class="sub h-[100%] lg:w-[80%] w-[98%] flex justify-between">
+            <div class="logo flex justify-center items-center lg:w-[10%] h-[100%]">
+                <i class="fa-solid fa-bars lg:hidden pe-[20px]"></i>
+                <a href="index.html"><img src="/assets/boAt_logo.svg" class="lg:h-[35px] h-[30px]" alt=""></a>
+            </div>
+            <nav class="hidden xl:block w-[55%] h-[100%] flex justify-between items-center">
+                <ul class="w-[100%] h-[100%] flex justify-between items-center">
+                    <li class="w-[60%] flex justify-between items-center">
+                        <a href="index.html" class="text-[18px]">home</a>
+                        <a href="productpage.html" class="text-[18px]">product</a>
+                        <a href="careers.html" class="text-[18px]">careers</a>
+                        <a href="refer-earn.html" class="text-[18px]">refer & earn</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="logo1 h-[100%] lg:w-[24%] md:w-[45%] w-[25%] flex justify-around items-center relative">
+                <i class="ri-search-line absolute lg:left-[35px] md:left-[35px] left-[-35px] "></i>
+                <input type="text" placeholder="Search" id="search"
+                    class="bg-[#eff4f7] h-[45px] w-[70%] rounded-full hidden md:block">
+               <a href="login.html"> <i class="fa-regular fa-user text-[20px]"></i></a>
+               <a href="cart.html"> <i class="ri-shopping-cart-2-line text-[20px]"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- products -->
+
+    <div id="main" class="w-[100%] h-[auto]  flex justify-center flex-wrap pt-[50px] pb-[50px]">
+        <div class="w-[95%] sm:w-[80%] md:w-[90%] xl:w-[90%] 2xl:w-[80%]  mb-[25px] flex justify-between">
             <div>
                 <select name="" id="Categories">
                     <option value="">Categories</option>
@@ -46,6 +79,64 @@
            
         </div>
     </div>
+
+
+         <!-- FOOTER  -->
+
+    <footer class="bg-[#e7f0f5] lg:p-10 p-5 mt-[3vw]">
+        <div class="footer grid gap-4 lg:grid-cols-4">
+            <div class="foot1">
+                <img src="/Assets/boAt_logo.svg" alt="">
+                <p class="text-[25px] font-[600] mt-3">Subscribe to our email alerts !</p>
+                <input class="w-[92%] rounded-[7px] mt-1 p-3" placeholder="Enter your email Address" type="text">
+                <i class="ri-arrow-right-circle-line lg:ms-[-2.5vw] ms-[-10vw] opacity-40 cursor-pointer text-[22px]"></i>
+            </div>
+            <div class="foot1 sm:flex justify-around">
+                <div class="ffff">
+                <p class="font-[600]">Shop</p><br>
+                <a href="" class="text-[14px] leading-[2vw]">True Wireless Earbuds</a><br>
+                <a href="" class="text-[14px] leading-[2vw]">Wired Headphones</a><br>
+                <a href="" class="text-[14px] leading-[2vw]">Home Audio</a><br>
+                <a href="" class="text-[14px] leading-[2vw]">Smart Watches</a><br>
+                <a href="" class="text-[14px] leading-[2vw]">Misfit Trimmers</a> 
+            </div>
+            <div class="foot1"><br><br>
+                <a href="" class="text-[14px] leading-[2vw]">Wireless Headphones</a><br>
+                <a href="" class="text-[14px] leading-[2vw]">Wireless Speakers</a><br>
+                <a href="" class="text-[14px] leading-[2vw]">Mobile Accessories</a><br>
+                <a href="" class="text-[14px] leading-[2vw]">TRebel</a><br>
+                <a href="" class="text-[14px] leading-[2vw]">Refer & Earn</a> 
+            </div>
+            </div>
+            <div class="foot1 sm:flex justify-around lg:justify-between">
+                <div class="ffff">
+                <p class="font-[600]">Help</p><br>
+                <a href="" class="text-[14px] leading-[2vw]">Track Your Order</a><br>
+                <a href="" class="text-[14px] leading-[2vw]">Warranty & Support</a><br>
+                <a href="" class="text-[14px] leading-[2vw]">Return Policy</a><br>
+                <a href="" class="text-[14px] leading-[2vw]">Service Centers</a><br>
+                <a href="" class="text-[14px] leading-[2vw]">Bulk Orders</a> <br>
+                <a href="" class="text-[14px] leading-[2vw]">Why Buy Direct</a> 
+            </div>
+            <div class="foot1">
+                <p class="font-[600]">Company</p><br>
+                <a href="" class="text-[14px] leading-[2vw]">About boAt</a><br>
+                <a href="" class="text-[14px] leading-[2vw]">News</a><br>
+                <a href="" class="text-[14px] leading-[2vw]">Read Our Blog</a><br>
+                <a href="" class="text-[14px] leading-[2vw]">Careers</a><br>
+                <a href="" class="text-[14px] leading-[2vw]">Security</a> <br>
+                <a href="" class="text-[14px] leading-[2vw]">Investor Relations</a><br> 
+                <a href="" class="text-[14px] leading-[2vw]">Social Responsibility</a> <br>
+                <a href="" class="text-[14px] leading-[2vw]">Warranty Policy</a> 
+            </div>
+            </div>
+            
+            
+            
+        </div>
+    </footer>
+    </header>
+
 </body>
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="JS/productpage.js"></script>

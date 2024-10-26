@@ -4,8 +4,36 @@
     box-sizing: border-box;
     font-family: "Metrophobic", sans-serif;
 }
+#search{
+    padding-left: 60px;
+}
 #singalimg{
     width: 660px;
     height: 660px;
     border-radius: 10px;
+}
+
+#st{
+    width: 14px;
+    height: 14px;
+    margin-right: 3px;
+}
+#btn1{
+    width: 100px;
+    margin: 5px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    border-radius: 5px;
+}
+#cart{
+    width: 60%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #1A2024;
+    color: white;
+    font-size: 16px;
+    border: brown;
+    font-weight: 900;
+    margin-top: 30px;
 }
