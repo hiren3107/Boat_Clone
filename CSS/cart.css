@@ -7,3 +7,54 @@
 #search{
     padding-left: 60px;
 }
+#btnpay{
+    width: 100px;
+    /* margin: 5px; */
+    height: 40px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    border-radius: 5px;
+}
+#delet{
+    width: 100px;
+    /* margin: 5px; */
+    height: 34px;
+    color: white;
+    background-color: #ED1C24;
+    font-size: 15px;
+    border-radius: 5px;
+}
+#cartimg{
+    height: 130px;
+    width: 120px;
+    border-radius: 5px;
+}
+
+#inc_btn1{
+    width: 30px;
+    /* height: 30px; */
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+    font-size: 25px;
+    background-color: #000;
+}
+#inc_btn2{
+    width: 30px;
+    /* height: 30px; */
+    border-radius: 8px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    font-size: 25px;
+}
+#qnt{
+    background-color: white;    
+    color: black;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 8px;
+    width: 50px;
+}

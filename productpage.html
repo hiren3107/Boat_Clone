@@ -22,7 +22,6 @@
 </head>
 
 <body>
-
     <header class="h-[90px] w-[100%] flex justify-center">
         <div class="sub h-[100%] lg:w-[80%] w-[98%] flex justify-between">
             <div class="logo flex justify-center items-center lg:w-[10%] h-[100%]">
@@ -43,11 +42,49 @@
                 <i class="ri-search-line absolute lg:left-[35px] md:left-[35px] left-[-35px] "></i>
                 <input type="text" placeholder="Search" id="search"
                     class="bg-[#eff4f7] h-[45px] w-[70%] rounded-full hidden md:block">
-                <a href="login.html"> <i class="fa-regular fa-user text-[20px]"></i></a>
-                <a href="cart.html"> <i class="ri-shopping-cart-2-line text-[20px]"></i></a>
+               <a href="login.html"> <i class="fa-regular fa-user text-[20px]"></i></a>
+               <a href="cart.html"><div class="relative">
+                   <p class="pt-[2px] pb-[2px] ps-[6px] pe-[6px] bg-[red] text-[#fff] text-[12px] top-[-9px] left-[3px] rounded-full absolute" id="cnum"></p>
+                   <i class="ri-shopping-cart-2-line text-[20px]"></i></a>
+                </div>
             </div>
         </div>
     </header>
+
+    <!-- products -->
+
+    <div id="main" class="w-[100%] h-[auto]  flex justify-center flex-wrap pt-[50px] pb-[50px]">
+        <div class="w-[95%] sm:w-[80%] md:w-[90%] xl:w-[90%] 2xl:w-[80%]  mb-[25px] flex justify-between">
+            <div>
+                <select name="" id="Categories">
+                    <option value="all">Categories</option>
+                    <option value="all">All Product</option>
+                    <option value="Earbuds">Wireless-Earbuds</option>
+                    <option value="Neckbands">Neckbands</option>
+                    <option value="Headphones">Wireless-Headphones</option>
+                    <option value="Speakers">Wireless-Speakers</option>
+                    <option value="Limited">Limited-Edition</option>
+                </select>
+            </div>
+            <div>
+                <select name="" id="short">
+                    <option value="alll">Short by</option>
+                    <option value="a">Alphabetically, A-Z</option>
+                    <option value="z">Alphabetically, Z-A</option>
+                    <option value="low">Price, low to high</option>
+                    <option value="high">Price, high to low</option>
+                </select>
+            </div>
+        </div>
+        
+   
+        <div id="box" class="w-[95%]  sm:w-[80%] md:w-[90%] xl:w-[90%] 2xl:w-[80%] flex justify-between flex-wrap">
+           
+        </div>
+    </div>
+
+
+         <!-- FOOTER  -->
 
     <footer class="bg-[#e7f0f5] lg:p-10 p-5 mt-[3vw]">
         <div class="footer grid gap-4 lg:grid-cols-4">
@@ -96,11 +133,54 @@
                 <a href="" class="text-[14px] leading-[2vw]">Warranty Policy</a> 
             </div>
             </div>
+                
         </div>
     </footer>
+    </header>
 
 </body>
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="JS/productpage.js"></script>
-
+<script src="JS/cartnum.js"></script>
 </html>
+
+<!-- <div class="flex p-[5px] rounded-[8px] w-[100%] md:w-[48%] xl:w-[32%] border bg-[#FAFAFA] mb-[25px]">
+    <div class="me-[10px]" id="po">
+        <a href="singal.html">
+            <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/AD_161.jpg?v=1686297917" alt=""
+                id="mainimg">
+        </a>
+        <div id="yellow">
+            <p id="pt">Hours Playback</p>
+        </div>
+    </div>
+    <div class="flex flex-wrap items-center w-[100]">
+        <div class="w-[100%]">
+            <div class="flex mb-[5px]">
+                <div class="flex items-center  ">
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/star-5.png" alt="" id="st">
+                    <span class="text-[12px] pe-[5px] border-r-[2px]">3.5</span>
+                </div>
+                <div class="flex items-center ps-[5px]">
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Mask_group-10.png?v=1677571152"
+                        alt="" id="st">
+                    <span class="text-[12px] ">123</span>
+                </div>
+            </div>
+            <h1 class="text-[16px] text-[#1A2024] font-black">boAt Airdopes 161</h1>
+        </div>
+        <div class="w-[100%]">
+            <div class="flex items-end">
+                <p class="text-[16px] text-[#1A2024] font-black me-[7px]">₹2,354</p>
+                <p class="text-[12px] text-[#b2b9bf] line-through me-[7px]">₹2,354</p>
+                <p class="text-[12px] text-[#12b985] me-[5px] font-black">64% off</p>
+                <p></p>
+            </div>
+            <a href="singal.html">
+                <div class="mt-[15px]">
+                    <button id="cart">Add To Cart</button>
+                </div>
+            </a>
+        </div>
+    </div>
+</div> -->

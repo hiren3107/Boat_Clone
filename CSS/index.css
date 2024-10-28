@@ -32,3 +32,37 @@ video{
     border-radius: 20px;
     width: 100%;
 }
+
+/* aside  */
+
+#asid{
+    position: fixed;
+    /* width: 40%; */
+    height: 100vh;
+    margin-top: -90px;
+}
+/* #inputbox{
+    height: 54px;
+    border-radius: 8px;
+    border: 1px solid #F5EEE2;
+    position: relative;
+    margin-top: 22px;
+}
+
+#input{
+    width: 100%;
+    padding: 14px 18px;
+    height: 54px;
+    border-radius: 8px;
+    border: none;
+    background-color: transparent;
+    color: #F5EEE2;
+    font-size: 18px;
+}
+#search{
+    position: absolute;
+    right: 10px;
+    color: #F5EEE2;
+    font-size:25px;
+    top: 15px;
+} */
