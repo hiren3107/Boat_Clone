@@ -28,7 +28,7 @@ document.querySelector("#signup").addEventListener("submit", (e) => {
     };
 
     if (vailid == true) {
-        fetch(`http://localhost:3000/signupdata`, {
+        fetch(`https://boat-api-1.onrender.com/signupdata`, {
             method: "POST",
             headers: {
                 "content-Type": "application/json"

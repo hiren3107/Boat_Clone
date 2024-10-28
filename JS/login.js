@@ -25,7 +25,7 @@ document.querySelector("#login").addEventListener("submit", (h) => {
 
     if(kk == true)
     {
-        fetch(`http://localhost:3000/signupdata`)
+        fetch(`https://boat-api-1.onrender.com/signupdata`)
         .then((re)=>{
             return re.json()
         }).then((res)=>{

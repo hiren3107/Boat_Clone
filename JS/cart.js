@@ -1,4 +1,4 @@
-fetch(`http://localhost:3000/cart`)
+fetch(`https://boat-api-1.onrender.com/cart`)
     .then((res) => {
         return res.json()
     }).then((Res) => {
@@ -45,13 +45,14 @@ function view(arr) {
 }
 
 function dd(id) {
-    fetch(`http://localhost:3000/cart/${id}`, {
+    fetch(`https://boat-api-1.onrender.com/cart/${id}`, {
         method: "DELETE",
     })
         .then((res) => {
             return res.json()
         }).then((Res) => {
-            console.log(Res);
+            // console.log(Res);
+            document.querySelector("#box").innerHTML = ""
         }).catch((err) => {
             console.log(err);
         })
@@ -67,13 +68,14 @@ function inc_dc(qtt, id, opr) {
         h = h - 1;
 
         if (h == 0) {
-            fetch(`http://localhost:3000/cart/${id}`, {
+            fetch(`https://boat-api-1.onrender.com/cart/${id}`, {
                 method: "DELETE",
             })
                 .then((res) => {
                     return res.json()
                 }).then((Res) => {
-                    console.log(Res);
+                    document.querySelector("#box").innerHTML = ""
+                    // console.log(Res);
                 }).catch((err) => {
                     console.log(err);
                 })
@@ -82,7 +84,7 @@ function inc_dc(qtt, id, opr) {
     else if (opr == 'inc') {
         h = h + 1;
     }
-    fetch(`http://localhost:3000/cart/${id}`, {
+    fetch(`https://boat-api-1.onrender.com/cart/${id}`, {
         method: "PATCH",
         headers: {
             'Content-Type': "application/json"
