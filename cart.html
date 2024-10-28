@@ -20,6 +20,8 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
 
+    <!-- aleart  -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body>
@@ -44,10 +46,84 @@
                 <input type="text" placeholder="Search" id="search"
                     class="bg-[#eff4f7] h-[45px] w-[70%] rounded-full hidden md:block">
                 <a href="login.html"> <i class="fa-regular fa-user text-[20px]"></i></a>
-                <a href="cart.html"> <i class="ri-shopping-cart-2-line text-[20px]"></i></a>
+                <a href="cart.html">  <div class="relative">
+                    <p class="pt-[2px] pb-[2px] ps-[6px] pe-[6px] bg-[red] text-[#fff] text-[12px] top-[-9px] left-[3px] rounded-full absolute" id="cnum"></p>
+                     <i class="ri-shopping-cart-2-line text-[20px]"></i></a>
+                </div>
             </div>
         </div>
     </header>
+
+
+    <!-- cart -->
+
+    <div class="w-[100%] h-[auto]  flex justify-center flex-wrap text-center mt-[50px]">
+        <h1 class="text-[50px] text-[#000] font-black">Your Cart</h1>
+    </div>
+
+    <div id="main" class="w-[100%] h-[auto]  flex justify-center flex-wrap pt-[50px] pb-[50px]">
+        <div id="submain" class="w-[95%] sm:w-[80%] md:w-[90%] xl:w-[90%] 2xl:w-[80%] border">
+            <div class="lg:grid lg:grid-cols-6 lg:gap-12 p-[10px] lg:border hidden lg:block ">
+                <div class="flex justify-center">
+                    <p class="text-[16px] text-[#000] font-black">Image</p>
+                </div>
+                <div class="flex justify-center">
+                    <p class="text-[16px] text-[#000] font-black">Product</p>
+                </div>
+                <div class="flex justify-center">
+                    <p class="text-[16px] text-[#000] font-black">Price</p>
+                </div>
+                <div class="flex justify-center">
+                    <p class="text-[16px] text-[#000] font-black">Quantity</p>
+                </div>
+                <div class="flex justify-center">
+                    <p class="text-[16px] text-[#000] font-black">Subtotal</p>
+                </div>
+                <div class="flex justify-center">
+                    <p class="text-[16px] text-[#000] font-black">Delete</p>
+                </div>
+            </div>
+
+            <!-- js  -->
+
+            <div id="box" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 lg:gap-0 gap-4">
+                
+
+
+                
+            </div>
+
+
+
+            <div class="lg:grid lg:grid-cols-6 lg:gap-12 p-[10px] lg:border hidden lg:block ">
+                <div class="flex justify-center">
+                    <!-- <p class="text-[16px] text-[#000] font-black">Image</p> -->
+                </div>
+                <div class="flex justify-center">
+                    <!-- <p class="text-[16px] text-[#000] font-black">Product</p> -->
+                </div>
+                <div class="flex justify-center">
+                    <!-- <p class="text-[16px] text-[#000] font-black">Price</p> -->
+                </div>
+                <div class="flex justify-center items-center">
+                    <p class="text-[16px] text-[#000] font-black">Total Bill</p>
+                </div>
+                <div class="flex justify-center items-center">
+                    <p class="text-[16px] text-[#000] font-black" id="h"></p>
+                </div>
+                <div class="flex justify-center items-center">
+                    <p class="text-[16px] text-[#000] font-black"><a href="index.html"></a><button id="btnpay" onclick="pay()">Pay Now</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex justify-center items-center lg:hidden ">
+        <p class="text-[16px] text-[#000] font-black me-[10px]">Total Bill = </p>
+        <p class="text-[16px] text-[#000] font-black me-[20px]" id="h"></p>
+        <p class="text-[16px] text-[#000] font-black"><button id="btnpay" onclick="pay()">Pay Now</button></p>
+    </div>
+
+  
 
     <footer class="bg-[#e7f0f5] lg:p-10 p-5 mt-[3vw]">
         <div class="footer grid gap-4 lg:grid-cols-4">
@@ -103,4 +179,31 @@
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="JS/cart.js"></script>
 
+
 </html>
+
+
+
+<!-- 
+<div class="lg:w-[100%] p-[10px] grid lg:grid lg:grid-cols-6 grid-cols-1 lg:gap-12 gap-4 lg:block border ">
+    <div class="flex justify-center items-center">
+        <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/131-iron-man.jpg" alt="" id="cartimg">
+    </div>
+    <div class="flex justify-center items-center">
+        <p class="text-[16px] text-[#000]">boAt Airdopes 131 Ironman Edition</p>
+    </div>
+    <div class="flex justify-center items-center">
+        <p class="text-[16px] text-[#000]">1,099</p>
+    </div>
+    <div class="flex justify-center items-center">
+        <button id="inc_btn1" onclick="">-</button>
+        <input type="text" value="5" disabled id="qnt">
+        <button id="inc_btn2" onclick="">+</button>
+    </div>
+    <div class="flex justify-center items-center">
+        <p class="text-[16px] text-[#000] font-black ">4,536</p>
+    </div>
+    <div class="flex justify-center items-center">
+        <p class="text-[16px] text-[#000] font-black"><button id="delet">Delete</button></p>
+    </div>
+</div> -->

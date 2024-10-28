@@ -14,11 +14,34 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body>
 
-    <h1> hello login</h1>
+    <div class="h-[auto] lg:ps-[45px] lg:pe-[45px] ps-[22px] pe-[22px] pt-[36px] pb-[36px]  text-center">
+        <h1 class="text-[50px] text-[#000] font-black">Login Page</h1>
+    </div>
+      <div class="h-[auto] lg:ps-[45px] lg:pe-[45px] ps-[22px] pe-[22px] pt-[36px] pb-[36px]  flex justify-center">
+        <div class="Loginmain">
+          <div class="flex justify-between flex-col sm:flex-row items-center">
+            <h1 class="lg:text-[38px] text-[36px] text-[#000] uppercase mb-[12px] tracking-[5px] font-black">Login</h1>
+            <a href="signup.html" class="text-[18px] text-[#000] font-black">Create account</a>
+          </div>
+            <form id="login">
+                <p class="text-[18px] text-[#ED1C24] font-black" id="loginpasstext"></p>
+                <p class="text-[18px] text-[#ED1C24] font-black" id="loginemailtext"></p>
+                <label class="block mt-[22px] mb-[5px] text-[16px] text-[#000]">Email</label>
+                <input type="text" id="loginemail">
+                <label class="block mt-[22px] mb-[5px] text-[16px] text-[#000]">Password</label>
+                <input type="password" id="loginpassword">
+                <button id="creat">Login</button>
+                <div class="text-center mt-[22px]">
+                    <a href="index.html" class="text-[18px] text-[#000] text-center font-black">Return to Store</a>
+                </div>
+            </form>
+        </div>
+      </div>
 
 </body>
 <script src="https://cdn.tailwindcss.com"></script>

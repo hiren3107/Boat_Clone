@@ -43,7 +43,10 @@
                 <input type="text" placeholder="Search" id="search"
                     class="bg-[#eff4f7] h-[45px] w-[70%] rounded-full hidden md:block">
                <a href="login.html"> <i class="fa-regular fa-user text-[20px]"></i></a>
-               <a href="cart.html"> <i class="ri-shopping-cart-2-line text-[20px]"></i></a>
+               <a href="cart.html"><div class="relative">
+                   <p class="pt-[2px] pb-[2px] ps-[6px] pe-[6px] bg-[red] text-[#fff] text-[12px] top-[-9px] left-[3px] rounded-full absolute" id="cnum"></p>
+                   <i class="ri-shopping-cart-2-line text-[20px]"></i></a>
+                </div>
             </div>
         </div>
     </header>
@@ -54,22 +57,22 @@
         <div class="w-[95%] sm:w-[80%] md:w-[90%] xl:w-[90%] 2xl:w-[80%]  mb-[25px] flex justify-between">
             <div>
                 <select name="" id="Categories">
-                    <option value="">Categories</option>
-                    <option value="">All Product</option>
-                    <option value="">Wireless-Earbuds</option>
-                    <option value="">Neckbands</option>
-                    <option value="">Wireless-Headphones</option>
-                    <option value="">Wireless-Speakers</option>
-                    <option value="">Limited-Edition</option>
+                    <option value="all">Categories</option>
+                    <option value="all">All Product</option>
+                    <option value="Earbuds">Wireless-Earbuds</option>
+                    <option value="Neckbands">Neckbands</option>
+                    <option value="Headphones">Wireless-Headphones</option>
+                    <option value="Speakers">Wireless-Speakers</option>
+                    <option value="Limited">Limited-Edition</option>
                 </select>
             </div>
             <div>
-                <select name="" id="Categories">
-                    <option value="">Short by</option>
-                    <option value="">Alphabetically, A-Z</option>
-                    <option value="">Alphabetically, Z-A</option>
-                    <option value="">Price, low to high</option>
-                    <option value="">Price, high to low</option>
+                <select name="" id="short">
+                    <option value="alll">Short by</option>
+                    <option value="a">Alphabetically, A-Z</option>
+                    <option value="z">Alphabetically, Z-A</option>
+                    <option value="low">Price, low to high</option>
+                    <option value="high">Price, high to low</option>
                 </select>
             </div>
         </div>
@@ -130,9 +133,7 @@
                 <a href="" class="text-[14px] leading-[2vw]">Warranty Policy</a> 
             </div>
             </div>
-            
-            
-            
+                
         </div>
     </footer>
     </header>
@@ -140,7 +141,7 @@
 </body>
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="JS/productpage.js"></script>
-
+<script src="JS/cartnum.js"></script>
 </html>
 
 <!-- <div class="flex p-[5px] rounded-[8px] w-[100%] md:w-[48%] xl:w-[32%] border bg-[#FAFAFA] mb-[25px]">

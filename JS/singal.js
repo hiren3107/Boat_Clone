@@ -94,23 +94,25 @@ function FetchingData() {
         })
         .then((Res) => {
             if (Res.length > 0) {
-              Swal.fire({
-                title: "Item is Already Present in Cart !!!!!",
-                showClass: {
-                  popup: `
-                    animate__animated
-                    animate__fadeInUp
-                    animate__faster
-                  `
-                },
-                hideClass: {
-                  popup: `
-                    animate__animated
-                    animate__fadeOutDown
-                    animate__faster
-                  `
-                }
-              });
+                // alert("Product Ia Already In Cart !")
+                // sweetAlert("Oops...", "Product Ia Already In Cart!", "error");
+                Swal.fire({
+                    title: "Item is Already Present in Cart !!!!!",
+                    showClass: {
+                      popup: `
+                        animate__animated
+                        animate__fadeInUp
+                        animate__faster
+                      `
+                    },
+                    hideClass: {
+                      popup: `
+                        animate__animated
+                        animate__fadeOutDown
+                        animate__faster
+                      `
+                    }
+                  });
             } else {
                 fetch(`http://localhost:3000/cart`, {
                     method: "POST",
@@ -130,21 +132,32 @@ function FetchingData() {
                     })
   
                     Swal.fire({
-                      title: "Item Aded in Cart...",
-                      showClass: {
-                        popup: `
-                          animate__animated
-                          animate__fadeInUp
-                          animate__faster
-                        `
-                      },
-                      hideClass: {
-                        popup: `
-                          animate__animated
-                          animate__fadeOutDown
-                          animate__faster
-                        `
-                      }})
+                        position: "top-end",
+                        icon: "success",
+                        title: "Product Added Succsessfully.....",
+                        showConfirmButton: false,
+                        timer: 1500
+                      });
+                    // alert("Product Added Succsessfully.....")
+
+                    // sweetAlert("Oops...", "Something went wrong!", "error");
+                    // Swal.fire({
+                    //     title: "Product Added Succsessfully.....",
+                    //     showClass: {
+                    //       popup: `
+                    //         animate__animated
+                    //         animate__fadeInUp
+                    //         animate__faster
+                    //       `
+                    //     },
+                    //     hideClass: {
+                    //       popup: `
+                    //         animate__animated
+                    //         animate__fadeOutDown
+                    //         animate__faster
+                    //       `
+                    //     }
+                    //   });
             }
         })
         .catch((err) => {
