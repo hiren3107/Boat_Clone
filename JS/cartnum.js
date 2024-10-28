@@ -1,4 +1,4 @@
-fetch(`http://localhost:3000/cart`)
+fetch(`https://boat-api-1.onrender.com/cart`)
 .then((res) => {
     return res.json()
 }).then((Res) => {
