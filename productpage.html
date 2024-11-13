@@ -19,11 +19,18 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+
+    <!-- AOS  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 
 <body>
     <header class="h-[90px] w-[100%] flex justify-center">
-        <div class="sub h-[100%] lg:w-[80%] w-[98%] flex justify-between">
+        <div class="sub h-[100%] lg:w-[80%] w-[98%] flex justify-between" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
             <div class="logo flex justify-center items-center lg:w-[10%] h-[100%]">
                 <i class="fa-solid fa-bars lg:hidden pe-[20px]"></i>
                 <a href="index.html"><img src="/assets/boAt_logo.svg" class="lg:h-[35px] h-[30px]" alt=""></a>
@@ -56,7 +63,9 @@
     <div id="main" class="w-[100%] h-[auto]  flex justify-center flex-wrap pt-[50px] pb-[50px]">
         <div class="w-[95%] sm:w-[80%] md:w-[90%] xl:w-[90%] 2xl:w-[80%]  mb-[25px] flex justify-between">
             <div>
-                <select name="" id="Categories">
+                <select name="" id="Categories" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                     <option value="all">Categories</option>
                     <option value="all">All Product</option>
                     <option value="Earbuds">Wireless-Earbuds</option>
@@ -67,7 +76,9 @@
                 </select>
             </div>
             <div>
-                <select name="" id="short">
+                <select name="" id="short" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                     <option value="alll">Short by</option>
                     <option value="a">Alphabetically, A-Z</option>
                     <option value="z">Alphabetically, Z-A</option>
@@ -78,7 +89,9 @@
         </div>
         
    
-        <div id="box" class="w-[95%]  sm:w-[80%] md:w-[90%] xl:w-[90%] 2xl:w-[80%] flex justify-between flex-wrap">
+        <div id="box" class="w-[95%]  sm:w-[80%] md:w-[90%] xl:w-[90%] 2xl:w-[80%] flex justify-between flex-wrap" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
            
         </div>
     </div>
@@ -86,7 +99,7 @@
 
          <!-- FOOTER  -->
 
-    <footer class="bg-[#e7f0f5] lg:p-10 p-5 mt-[3vw]">
+    <footer class="bg-[#e7f0f5] lg:p-10 p-5 mt-[3vw]" >
         <div class="footer grid gap-4 lg:grid-cols-4">
             <div class="foot1">
                 <img src="/Assets/boAt_logo.svg" alt="">
@@ -139,6 +152,13 @@
     </header>
 
 </body>
+
+<!-- AOS  -->
+
+<script>
+    AOS.init();
+  </script>
+
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="JS/productpage.js"></script>
 <script src="JS/cartnum.js"></script>
