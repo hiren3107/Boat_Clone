@@ -18,6 +18,7 @@ function view(arr) {
         subtotle = Element.price * Element.qtt
         total = total + subtotle
         document.getElementById("h").innerHTML = `₹${total}.00`
+        document.getElementById("hi").innerHTML = `₹${total}.00`
         return `
 <div class="lg:w-[100%] p-[10px] grid lg:grid lg:grid-cols-6 grid-cols-1 lg:gap-12 gap-4 lg:block border ">
 <div class="flex justify-center items-center">
@@ -57,6 +58,10 @@ function dd(id) {
             console.log(err);
         })
 
+        setTimeout(() => {
+
+            window.location.reload()
+            },500)
 }
 
 function inc_dc(qtt, id, opr) {
@@ -99,6 +104,10 @@ function inc_dc(qtt, id, opr) {
             console.log(err);
         })
 
+        setTimeout(() => {
+
+            window.location.reload()
+            },800)
 }
 
 
