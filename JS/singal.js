@@ -138,26 +138,10 @@ function FetchingData() {
                         showConfirmButton: false,
                         timer: 1500
                       });
-                    // alert("Product Added Succsessfully.....")
+                      setTimeout(() => {
 
-                    // sweetAlert("Oops...", "Something went wrong!", "error");
-                    // Swal.fire({
-                    //     title: "Product Added Succsessfully.....",
-                    //     showClass: {
-                    //       popup: `
-                    //         animate__animated
-                    //         animate__fadeInUp
-                    //         animate__faster
-                    //       `
-                    //     },
-                    //     hideClass: {
-                    //       popup: `
-                    //         animate__animated
-                    //         animate__fadeOutDown
-                    //         animate__faster
-                    //       `
-                    //     }
-                    //   });
+                        window.location.reload()
+                        },800)
             }
         })
         .catch((err) => {
