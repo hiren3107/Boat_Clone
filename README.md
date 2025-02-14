@@ -31,13 +31,9 @@ We worked together to build and improve the features of the website.
 ## 📸 Screenshots
 (Add screenshots of your project here)
 
-## 📸 Screenshots
-![Boat Clone Screenshot 1](screenshot1.png)
-![Boat Clone Screenshot 2](screenshot2.png)
-
 ## 🌐 Live Demo
 
-Check out the live version of the website here: [Live Demo](https://your-live-site-url.com)
+Check out the live version of the website here: [Live Demo](botclone.netlify.app)
 
 ## 🚀 Getting Started
 
