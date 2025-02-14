@@ -29,7 +29,7 @@ We worked together to build and improve the features of the website.
 - **JavaScript** - Interactive elements
 
 ## 📸 Screenshots
-<img href="https://drive.google.com/file/d/1RqDdSJSPodUZM3HEfDitebo7paqmnrNM/view" /> 
+<img src="https://drive.google.com/file/d/1RqDdSJSPodUZM3HEfDitebo7paqmnrNM/view?usp=sharing" alt="Boat Clone Screenshot" width="600" />
 
 ## 🌐 Live Demo
 
