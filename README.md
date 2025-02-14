@@ -9,6 +9,8 @@ A responsive and interactive clone of the Boat website built using HTML, CSS, Ta
 - Smooth animations and transitions
 - Mobile-first approach
 - Clean and well-structured code
+- **Product sorting and filtering options**
+- **User authentication with Login & Signup functionality**
 
 ## 🛠️ Technologies Used
 
@@ -38,3 +40,10 @@ A responsive and interactive clone of the Boat website built using HTML, CSS, Ta
    ```
 
 3. Open `index.html` in your browser or use Live Server (VS Code Extension)
+
+## 🎯 Future Enhancements
+- Add more animations for better UX
+- Implement API integration for dynamic content
+- Improve accessibility & SEO
+
+
