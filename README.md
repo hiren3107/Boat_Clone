@@ -33,7 +33,8 @@ We worked together to build and improve the features of the website.
 
 ## 🌐 Live Demo
 
-Check out the live version of the website here: [Live Demo](botclone.netlify.app)
+Check out the live version of the website here
+<br/><br/> 👉🏻 https://botclone.netlify.app/
 
 ## 🚀 Getting Started
 
