@@ -2,6 +2,16 @@
 
 A responsive and interactive clone of the Boat website built using HTML, CSS, Tailwind CSS, and JavaScript.
 
+
+## 🤝 Collaboration
+This project is a collaborative effort between the following developers:
+
+- Hiren Agravat
+- Chirag Devmurari
+
+We worked together to build and improve the features of the website.
+
+
 ## 🚀 Features
 
 - Fully responsive design with **Tailwind CSS**
@@ -20,6 +30,14 @@ A responsive and interactive clone of the Boat website built using HTML, CSS, Ta
 
 ## 📸 Screenshots
 (Add screenshots of your project here)
+
+## 📸 Screenshots
+![Boat Clone Screenshot 1](screenshot1.png)
+![Boat Clone Screenshot 2](screenshot2.png)
+
+## 🌐 Live Demo
+
+Check out the live version of the website here: [Live Demo](https://your-live-site-url.com)
 
 ## 🚀 Getting Started
 
