@@ -1,6 +1,6 @@
 # Boat Clone Website
 
-A responsive and interactive clone of the Boat website built using HTML, CSS, Tailwind CSS, and JavaScript.
+A responsive and interactive clone of the Boat website built using HTML, CSS, Tailwind CSS, and 
 
 
 ## 🤝 Collaboration
